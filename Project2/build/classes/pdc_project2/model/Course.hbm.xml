@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping default-lazy="false">
+    <class name="pdc_project2.model.Course">
+        <id column="id" name="id" type="int">
+            <generator class="identity"/>
+        </id>
+        
+        <property column="CourseName" generated="never" lazy="false" name="courseName" type="string"/>
+        <property column="Credit" generated="never" lazy="false" name="credit" type="int"/>
+
+        <set inverse="true" name="courseLearnings" sort="unsorted">
+            <key column="courseLearnings"/>
+            <one-to-many class="pdc_project2.model.Learning"/>
+        </set>
+
+    </class>
+</hibernate-mapping>

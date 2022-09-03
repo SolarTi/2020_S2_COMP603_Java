@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="dialect">org.hibernate.dialect.DerbyTenSevenDialect</property>
+        
+        <property name="connection.url">jdbc:derby:database;create=true</property>
+
+        <property name="connection.username">pdc</property>
+        <property name="connection.password">pdc</property>
+    
+        <property name="connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
+        <!--<property name="connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>-->
+
+        <property name="show_sql">true</property>
+        <mapping resource="pdc_project2/model/Student.hbm.xml"/>
+        <mapping resource="pdc_project2/model/Course.hbm.xml"/>
+        <mapping resource="pdc_project2/model/Learning.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

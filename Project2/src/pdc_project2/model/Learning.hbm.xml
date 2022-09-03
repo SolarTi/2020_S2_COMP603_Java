@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false">
+    <class name="pdc_project2.model.Learning">
+        <id name="id" type="int">
+            <generator class="identity"/>
+        </id>
+        <many-to-one cascade="save-update" class="pdc_project2.model.Student" column="studentLearnings" name="student"/>
+        <many-to-one cascade="save-update" class="pdc_project2.model.Course" column="courseLearnings" name="course"/>
+
+        <property column="StudentId" generated="never" lazy="false" name="studentId" type="string"/>
+        <property column="CourseName" generated="never" lazy="false" name="courseName" type="string"/>
+        <property column="Score" generated="never" lazy="false" name="score" type="float"/>
+    </class>
+</hibernate-mapping>
