@@ -1,8 +1,11 @@
-<!--
- * @Author: Tai Zhang
--->
+
 # 2020_S2_COMP603_Java
 This is a Java project for my COMP603 paper.
+This is a Student Management System, which was implemented by Java.
+It gives a platform to input students' scores and caltualate the GPA etc.
+
+One thing you need to know, this application is not a formal GPA calcultator, as I just randomly gave the paper points. 
+And the courses code are CASE SENSITIVE.
 
 **Advanced Features**
 This project allows user to manage students’ performance in difference courses. User or lecturer can register students’ courses performance to his/her students by adding course and score directly to a certain student or adding student and score to different courses. Therefore, the project will automatically calculate the GPA for each student. (excessive data may cause longer loading time)
