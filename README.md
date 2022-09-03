@@ -10,7 +10,7 @@ It gives a platform to input students' scores and caltualate the GPA etc.
 One thing you need to know, this application is not a formal GPA calcultator, as I just randomly gave the paper points.  
 And the courses code are CASE SENSITIVE. 
 
-**Advanced Features**
+**Advanced Features**:  
 This project allows user to manage students’ performance in difference courses. User or lecturer can register students’ courses performance to his/her students by adding course and score directly to a certain student or adding student and score to different courses. Therefore, the project will automatically calculate the GPA for each student. (excessive data may cause longer loading time)
 For avoiding the mistakes, user only can input correct existed Student ID and correct existed Course Code in correct format, when user register performance. (e.g. Student ID: 17970814, Course Code: COMP600)
 User also able to manage the information in ascending or descending ways by clicking the subtitles (e.g. GPA, Surname and Student Id). Besides, the project also shows the number of courses that a student under taken.  
