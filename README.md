@@ -21,10 +21,10 @@ Run PDC_Project2.java, you will see a graphic user interface as the Exhibit-1.
 At the top of this window, user can choose the list of students or the list of the courses.  
 In the list of student window, administrator is able to see the courses of a student after selecting the student and click the “Courses” button (as the Exhibit-2 and Exhibit-3), and add new course score after click “Add Score” button (Exhibit-4 and Exhibit-5). User must input the correct course code with the correct format e.g. COMP600  
 ![Exhibit-2](./ScreenShots/Exhibit-2.png)  
-![Exhibit-2](./ScreenShots/Exhibit-2.1.png.png)  
+![Exhibit-2](./ScreenShots/Exhibit-2.1.png)  
 ![Exhibit-3](./ScreenShots/Exhibit-3.png)  
 These are the windows that user will see when input a new score for a student. The language of text in these buttons are supposed to be the same as devices’ language.  
-![Exhibit-3](./ScreenShots/Exhibit-3.1.png.png)  
+![Exhibit-3](./ScreenShots/Exhibit-3.1.png)  
 ![Exhibit-3](./ScreenShots/Exhibit-3.2.png)  
 ![Exhibit-3](./ScreenShots/Exhibit-3.3.png)  
 The new score for COMP600 exists.  
